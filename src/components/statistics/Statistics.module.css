@@ -1,0 +1,85 @@
+@import-normalize;
+
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.statistics {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.statlist {
+    display: flex;
+    height: 60px;
+}
+
+.item {
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.item:nth-child(4n) {
+    background-color: #4fc5f5;
+}
+
+.item:nth-child(4n + 1) {
+    background-color: #a43cf3;
+}
+
+.item:nth-child(4n + 2) {
+    background-color: #e64c64;
+}
+
+.item:nth-child(4n + 3) {
+    background-color: #20b8c5;
+}
+
+.label {
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+}
+
+.percentage {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+}
